@@ -40,9 +40,19 @@ body
     
 }
 
-#textsize{
-                font-family:"Crimson Text",Times,serif;
-                font-size:17px
+#textsize{            
+    font-family:"Crimson Text",Times,serif;
+                font-size:17px;
+    margin-top: 80vx;
+    margin-bottom:100vx;
+            }
+
+#textsize3{            
+    font-family:"Crimson Text",Times,serif;
+                font-size:17px;
+    margin-top: 80vx;
+    margin-bottom:100vx;
+    color:darkred;
             }
 
 #textsize2{
@@ -125,7 +135,7 @@ body
 
 .profile-img
 {
-    height:400px
+    height:400px;
 }
 
 .portfolio
@@ -137,6 +147,11 @@ body
 .portfolio-img
 {
     height:400px;
+}
+
+.photo-img{
+    height:300px;
+    position:relative;
 }
 
 .project
